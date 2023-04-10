@@ -1,0 +1,33 @@
+footer{
+    background-color: #2d2e32;
+    padding: 3rem 0;
+    width: 100%;
+    font-family: Poppins,sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
+.footerc{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.footerc__socials {
+    display: flex;
+    gap: 2rem;
+}
+
+.footerc__socials .footer-logo{
+    color: #fff;
+    font-size: 2.3rem;
+}
