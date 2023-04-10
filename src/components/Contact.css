@@ -74,3 +74,40 @@
 .contact__icon-box a:hover{
     color: dodgerblue;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1020px){
+    .contact {
+        padding: 8rem 0;
+    }
+}
+
+@media (max-width: 460px){
+    .container {
+        padding: 0 1.7rem;
+    }
+}
+
+@media (max-width: 750px){
+    .contact__title {
+        text-align: center;
+    }
+
+    .contact__icons {
+        flex-direction: column;
+        gap: 5rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact__icon-box {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+/* RESPONSIVE DESIGN */

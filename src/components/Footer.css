@@ -31,3 +31,22 @@ footer h3 {
     color: #fff;
     font-size: 2.3rem;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 460px){
+    .container {
+        padding: 0 1.7rem;
+    }
+}
+
+@media (max-width: 550px){
+    .footerc {
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/* RESPONSIVE DESIGN */

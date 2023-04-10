@@ -155,10 +155,69 @@
 }
 
 
+/* RESPONSIVE DESIGN */
+
+/* Line8 */
+@media (max-width: 1020px){
+    .project {
+        padding: 8rem 0;
+    }
+}
+
+/* Line 17 */
+@media (max-width: 600px){
+    .project-content {
+        text-align: center;
+    }
+}
+
+/* Line 57 */
+@media (max-width: 1020px){
+    .projects-grid .pro__1 {
+        flex-direction: column!important;
+        gap: 3rem;
+        height: 75rem;
+        margin: 0 auto;
+        width: -moz-fit-content;
+        width: -webkit-fit-content;
+        width: fit-content;
+    }
+}
 
 
-/* I gotta go into Chrome and make the Screen smaller to get the:
-@media (max-width: 1020px)
-.project {
-    padding: 8rem 0;
-} */
+/* Line 64 */
+@media (max-width: 400px){
+    .projects-grid .pro__1 {
+        width: 100%;
+    }
+}
+
+/* Line77 */
+@media (max-width: 650px){
+    .projects-grid .pro__img {
+        width: 100%;
+    }
+}
+
+/* Line 95 */
+@media (max-width: 1020px){
+    .projects-grid .pro__text {
+        margin: 0 auto;
+    }
+}
+
+/* Line 99 */
+@media (max-width: 400px){
+    .projects-grid .pro__text {
+        width: 100%;
+    }
+}
+
+/* Line 185 */
+@media (max-width: 460px){
+    .container {
+        padding: 0 1.7rem;
+    }
+}
+
+/* RESPONSIVE DESIGN */

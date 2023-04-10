@@ -5,6 +5,7 @@
     height: 100vh;
     position: relative;
     width: 100%;
+    margin-top: -20px; 
 }
 
 .container {
@@ -119,3 +120,57 @@ img {
 .hero-text a:hover{
     color: dodgerblue;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 900px){
+    .hero {
+        height: auto;
+        padding: 11rem 0;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 3rem;
+        height: auto;
+        text-align: center;
+    }
+
+    .hero-main {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        height: auto;
+        text-align: center;
+    }
+
+    .hero-text p {
+        margin-bottom: 5rem;
+    }
+
+    .hero-text span {
+        gap: 1.6rem;
+        justify-content: center;
+        margin-bottom: 4rem;
+        margin-top: -2rem;
+    }
+
+    .skills {
+        flex-direction: column;
+        position: static;
+    }
+
+    .skills p {
+        border-bottom: 2px solid rgba(45,46,50,.5);
+        border-right: none;
+        margin-bottom: 3rem;
+        margin-right: 0;
+        padding-bottom: 1rem;
+        padding-right: 0;
+    }
+
+    .skills ul {
+        justify-content: center;
+    }
+}
+
+/* RESPONSIVE DESIGN */

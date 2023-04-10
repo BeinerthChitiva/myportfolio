@@ -1,4 +1,27 @@
 /* Navbar Basic Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    display: flex;
+    font-size: 1.7rem;
+    height: auto;
+    justify-content: space-between;
+    left: 0;
+    padding: 25px 40px 25px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+
 
 .navbar{
     -webkit-box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.23);
@@ -73,3 +96,9 @@
 }
 
 /* Navbar Links */
+
+@media (max-width:900px) {
+    .navbar{
+        background-color: red;
+    }
+}
