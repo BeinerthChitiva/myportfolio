@@ -15,7 +15,7 @@ function Projects(){
                     <div className="projects-grid">
                         <div class="pro pro__1 undefined">
                             <div className="pro__img">
-                                <a target="_blank" href="https://car-rental-ten.vercel.app/" rel="noreferrer">
+                                <a target="_blank" href="https://beinerthchitiva-carrental.vercel.app/" rel="noreferrer">
                                     <img src={carrental} alt="website"/>
                                 </a>
                             </div>
@@ -33,10 +33,10 @@ function Projects(){
                                     <p>SCSS</p>
                                 </div>
                                 <div class="links">
-                                    <a target="_blank" href="https://github.com/stefvndev/car-rental" rel="noreferrer">
+                                    <a target="_blank" href="https://github.com/BeinerthChitiva/bcm-carrental" rel="noreferrer">
                                         Code <FontAwesomeIcon icon={faGithub}/>
                                     </a>
-                                    <a target="_blank" href="https://car-rental-ten.vercel.app/" rel="noreferrer">
+                                    <a target="_blank" href="https://beinerthchitiva-carrental.vercel.app/" rel="noreferrer">
                                         Live Demo <FontAwesomeIcon icon={faExternalLinkAlt }/>
                                     </a>
                                 </div>
@@ -44,7 +44,7 @@ function Projects(){
                         </div>
                         <div className="pro pro__1 reversed-proj">
                             <div className="pro__img">
-                                <a target="_blank" href="https://minimalist-e-commerce.vercel.app/" rel="noreferrer">
+                                <a target="_blank" href="https://bcm-ecommerce.vercel.app/" rel="noreferrer">
                                     <img src={ecom} alt="website"/>
                                 </a>
                             </div>
@@ -62,10 +62,10 @@ function Projects(){
                                     <p>CSS</p>
                                 </div>
                                 <div className="links">
-                                    <a target="_blank" href="https://github.com/stefvndev/car-rental" rel="noreferrer">
+                                    <a target="_blank" href="https://github.com/BeinerthChitiva/bcm-ecommerce" rel="noreferrer">
                                         Code <FontAwesomeIcon icon={faGithub}/>
                                     </a>
-                                    <a target="_blank" href="https://minimalist-e-commerce.vercel.app/" rel="noreferrer">
+                                    <a target="_blank" href="https://bcm-ecommerce.vercel.app/" rel="noreferrer">
                                         Live Demo <FontAwesomeIcon icon={faExternalLinkAlt }/>
                                     </a>
                                 </div>
