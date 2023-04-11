@@ -6,7 +6,7 @@
 website features a modern and intuitive design, with easy-to-use navigation and a
 simple shopping experience that puts the focus on the products.</p>
 
-👉 My Portfolio: <a href='https://minimalist-e-commerce.vercel.app/'>My Portfolio</a>
+👉 My Portfolio: <a href='https://beinerthchitiva-portfolio.vercel.app/'>My Portfolio</a>
 
 <h3>Built with:</h3>
 
